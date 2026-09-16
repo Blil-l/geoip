@@ -182,6 +182,26 @@
     {
       "type": "private",
       "action": "add"
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "doh4",
+        "uri": "https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv4.json",
+        "jsonPath": ["@this"],
+        "onlyIPType": "ipv4"
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "doh6",
+        "uri": "https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv6.json",
+        "jsonPath": ["@this"],
+        "onlyIPType": "ipv6"
+      }
     }
   ],
   "output": [
