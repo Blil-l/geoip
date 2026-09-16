@@ -39,7 +39,7 @@
       "action": "add",
       "args": {
         "name": "tor",
-        "uri": "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/tor/exit-list"
+        "uri": "https://check.torproject.org/torbulkexitlist"
       }
     },
     {
